@@ -1,4 +1,5 @@
 # Elite Drive-guard
+Technologies such as Advanced Driver Assistance Systems (ADAS) have proven to be effective in improving road safety by providing drivers with real-time information and assistance to avoid accidents. By working together to improve road safety, we can reduce the number of accidents and make our roads safer for everyone. Elite Drive-Guard aims to address this problem by developing and implementing a comprehensive ADAS system that incorporates several key features, including Adaptive Cruise Control (ACC), Automatic Emergency Braking (AEB), Lane Keeping Assist System (LKAS), Lane Departure Warning (LDW) and manage the update software remotely by including firmware over the air (FOTA). Our system will be designed to be reliable by using an operating system (free rtos), effective, and user-friendly, providing drivers with real-time information and assistance to reduce the risk of accidents caused by driver error. 
 
 ## Table of Contents
 
