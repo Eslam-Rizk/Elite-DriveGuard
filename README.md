@@ -29,6 +29,14 @@ Technologies such as Advanced Driver Assistance Systems (ADAS) have proven to be
 ## Introduction
 The Elite Drive-guard is an Advanced Driver Assistance System (ADAS) prototype designed to enhance driver safety and improve overall driving experience. This documentation provides an overview of its features and functionalities.
 
+## Demo
+
+<video controls width="750">
+  <source src="https://github.com/Eslam-Rizk/Elite-DriveGuard/blob/main/pictures/Demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
 ## Features
 
 - ### Firmware Over-the-Air (FOTA) Update System
