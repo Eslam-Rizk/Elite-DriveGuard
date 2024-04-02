@@ -1,5 +1,30 @@
 # Elite Drive-guard
 
+## Table of Contents
+
+1. [Introduction](#introduction)
+2. [Features](#features)
+    - [Firmware Over-the-Air (FOTA) Update System](#firmware-over-the-air-fota-update-system)
+    - [Adaptive Cruise Control (ACC)](#adaptive-cruise-control-acc)
+    - [Automatic Emergency Braking (AEB)](#automatic-emergency-braking-aeb)
+    - [Lane Keeping System (LKS)](#lane-keeping-system-lks)
+    - [Adaptive Light Control (ALC)](#adaptive-light-control-alc)
+    - [Remote Bluetooth Control](#remote-bluetooth-control)
+3. [Hardware Components](#hardware-components)
+4. [Schematic Layout and PCB](#schematic-layout-and-pcb)
+5. [Finite State Machine](#finite-state-machine)
+6. [1. Firmware Over-the-Air (FOTA) Update System](#1-firmware-over-the-air-fota-update-system)
+7. [2. Adaptive Cruise Control (ACC)](#2-adaptive-cruise-control-acc)
+8. [3. Automatic Emergency Braking (AEB)](#3-automatic-emergency-braking-aeb)
+9. [4. Lane Keeping System (LKS)](#4-lane-keeping-system-lks)
+10. [5. Adaptive Light Control (ALC)](#5-adaptive-light-control-alc)
+11. [Remote Bluetooth Control](#remote-bluetooth-control-1)
+12. [Installation](#installation)
+13. [Usage](#usage)
+14. [Contributing](#contributing)
+15. [Acknowledgements](#acknowledgements)
+16. [Contact](#contact)
+
 ## Introduction
 The Elite Drive-guard is an Advanced Driver Assistance System (ADAS) prototype designed to enhance driver safety and improve overall driving experience. This documentation provides an overview of its features and functionalities.
 
@@ -30,7 +55,7 @@ The Elite Drive-guard is an Advanced Driver Assistance System (ADAS) prototype d
   
   <img src="https://github.com/Eslam-Rizk/Elite-DriveGuard/blob/main/pictures/Bluetooth.jpg" width=550>
 
-  ## Hardware Components
+## Hardware Components
 
 <img src="https://github.com/Eslam-Rizk/Elite-DriveGuard/blob/main/pictures/components.png" width=700>
 
