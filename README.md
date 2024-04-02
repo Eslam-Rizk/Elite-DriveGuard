@@ -12,6 +12,7 @@ The Elite Drive-guard is an Advanced Driver Assistance System (ADAS) prototype d
   - Upon detecting an update, the system automatically initiates the download process and activates an LED indicator, providing a visual prompt for the user.
   - Users can decide whether to proceed with the update or defer it for a later time, facilitated through a Bluetooth command interface.
   - Upon user confirmation, the system enters Bootloader mode, initiating a soft restart and commencing a 15-second countdown prior to executing the update procedure.
+  <img src="https://github.com/Eslam-Rizk/Elite-DriveGuard/blob/main/pictures/FOTA.png" width=700>
 
 ### 2. Adaptive Cruise Control (ACC)
 - **Functionality**: Adaptive Cruise Control (ACC) is a driver assistance feature that maintains a predetermined speed and safe following distance from preceding vehicles.
@@ -20,12 +21,14 @@ The Elite Drive-guard is an Advanced Driver Assistance System (ADAS) prototype d
   - When the FREE RTOS schedular run the ACC task + ACC flag was set by bluetooth
   - If the distance is from 10cm to 50 cm, the car moves with adaptive speed.
   - If the distance is more than 50 cm, the car moves with maximum speed.
+  <img src="https://github.com/Eslam-Rizk/Elite-DriveGuard/blob/main/pictures/ACC.png" width=700>
 
 ### 3. Automatic Emergency Braking (AEB)
 - **Functionality**: AEB is a critical safety feature designed to mitigate collision risks by autonomously applying brakes when an imminent collision is detected.
 - **Operation**:
   - AEB is triggered when the distance between the vehicle and an obstacle falls below a predefined threshold, typically 10 cm.
   - Upon activation, AEB promptly halts the vehicle's motion, simultaneously activating a distinct alarm for 3 seconds to alert surrounding individuals and illuminating a rear LED for enhanced visibility.
+  <img src="https://github.com/Eslam-Rizk/Elite-DriveGuard/blob/main/pictures/AEB.jpg" width=700>
 
 ### 4. Lane Keeping System (LKS)
 - **Functionality**: LKS aids in maintaining proper lane positioning and preventing inadvertent lane departures.
@@ -33,6 +36,7 @@ The Elite Drive-guard is an Advanced Driver Assistance System (ADAS) prototype d
   - Implemented through infrared (IR) sensors, LKS continuously monitors lane boundaries.
   - When the right sensor detects a transition to a black surface (binary 1) and the left sensor detects a transition to a white surface (binary 0), the system prompts corrective action, such as steering left.
   - Conversely, if the left sensor detects a black surface and the right sensor detects a white surface, the system initiates corrective action to steer right, ensuring the vehicle remains within the designated lane.
+ <img src="https://github.com/Eslam-Rizk/Elite-DriveGuard/blob/main/pictures/LKS.png" width=700>
 
 
 ### 5. Adaptive Light Control (ALC)
@@ -44,6 +48,7 @@ The Elite Drive-guard is an Advanced Driver Assistance System (ADAS) prototype d
   - If the value less than 20, head light off
   - If the value more than or equal to 80 and less than 93, head light on with adaptive lighting
   - If the value more than or equal to 20 and less than 80, head light on with adaptive with less lighting
+<img src="https://github.com/Eslam-Rizk/Elite-DriveGuard/blob/main/pictures/ALC.png" width=700>
 
 
 ## Bluetooth Control
@@ -55,19 +60,20 @@ The Elite Drive-guard system can be fully controlled via Bluetooth using the fol
 - Send ‘L’ via UART to MCU to make the car move Right.
 - Send ‘R’ via UART to MCU to make the car move Left.
 - Send ‘S’ via UART to MCU to make the car stop.
+<img src="https://github.com/Eslam-Rizk/Elite-DriveGuard/blob/main/pictures/Bluetooth.jpg" width=700><img src="https://github.com/Eslam-Rizk/Elite-DriveGuard/blob/main/pictures/Bluetooth2.jpg" width=700>
 
 ## Hardware Components
 
-- [Components](D:\eslam\github\Elite Drive Guard\components.png)
+<img src="https://github.com/Eslam-Rizk/Elite-DriveGuard/blob/main/pictures/components.png" width=700>
 
 ## Schematic Layout and PCB
 
-![Schematic Layout](D:\eslam\github\Elite Drive Guard\schematic.png)
-![PCB Layout](D:\eslam\github\Elite Drive Guard\PCB.png)
+<img src="https://github.com/Eslam-Rizk/Elite-DriveGuard/blob/main/pictures/schematic.png" width=700>
+<img src="https://github.com/Eslam-Rizk/Elite-DriveGuard/blob/main/pictures/PCB.png" width=700>
 
 ## Finite State Machine
 
-![FSM](eslam/github/Elite Drive Guard/FSM.jpg)
+<img src="https://github.com/Eslam-Rizk/Elite-DriveGuard/blob/main/pictures/FSM.jpg" width=700>
 
 
 ## Installation
