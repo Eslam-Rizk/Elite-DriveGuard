@@ -68,6 +68,7 @@ The Elite Drive-guard is an Advanced Driver Assistance System (ADAS) prototype d
 
 <img src="https://github.com/Eslam-Rizk/Elite-DriveGuard/blob/main/pictures/schematic.png" width=700>
 <img src="https://github.com/Eslam-Rizk/Elite-DriveGuard/blob/main/pictures/PCB.png" width=700>
+<img src="https://github.com/Eslam-Rizk/Elite-DriveGuard/blob/main/pictures/PCB.jpeg" width=700>
 
 ## Finite State Machine
 
