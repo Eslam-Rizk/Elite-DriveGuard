@@ -105,9 +105,10 @@ Our Bootloader is stored in the first 2 sectors of the flash memory and has its 
    - **Verify and Install Update**: Once each update record is received and before writting it to flash memory, the bootloader verifies the integrity of the record to ensure its validity and completeness via CRC encryption.
    - **Jump to Application**: If the update is successful, the bootloader deinitializes the system, switches the processor to execute the newly updated application firmware, and jumps to its entry point.
    - **Fallback Mechanism**: If no update is received within the specified timeout period, the bootloader proceeds to deinitialize the system and jumps to the entry point of the existing application firmware.
+   
   <img src="https://github.com/Eslam-Rizk/Elite-DriveGuard/blob/main/pictures/bootloader%20algorithm.jpg" width=550>
    
-3. **Vector Table Offset**:
+2. **Vector Table Offset**:
    - In the startup code of the application firmware, a new vector table is utilized by applying a vector table offset to the base address. This ensures that the application firmware uses the correct interrupt vector table, especially if the bootloader resides in a different memory region.
 
 By following this process, bootloaders enable seamless firmware updates and maintain the reliability and performance of embedded systems, such as the Advanced Driver Assistance System (ADAS) described in this project.
@@ -165,7 +166,7 @@ To install the Elite Drive-guard system, follow these steps:
 
 1. Clone the repository to your local machine.
 2. Configure the necessary hardware components according to the provided specifications.
-3. Compile and upload the firmware to the target device.
+3. Compile and upload the firmware to the target devices.
 4. Run the system and ensure proper functionality.
 
 
@@ -180,8 +181,8 @@ Contributions to the Elite Drive-guard project are welcome! If you'd like to con
 
 ## Acknowledgements
 
-Special thanks to Information Technololgy Institute (ITI) and to [contributors](CONTRIBUTORS.md) who have helped make this project possible.
+Special thanks to [contributors](CONTRIBUTORS.md) who have helped make this project possible.
 
 ## Contact
 
-For questions, feedback, or inquiries, please contact [project maintainer](eslam.mahmoud18130@gmail.com).
+For questions, feedback, or inquiries, please contact me at eslam.mahhmoud18130@gmail.com or [Linkedin profile](https://www.linkedin.com/in/eslam-rizk-6a029a145/).
