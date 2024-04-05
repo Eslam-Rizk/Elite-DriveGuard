@@ -166,7 +166,7 @@ To install the Elite Drive-guard system, follow these steps:
 
 1. Clone the repository to your local machine.
 2. Configure the necessary hardware components according to the provided specifications.
-3. Compile and upload the firmware to the target devices.
+3. Compile and upload the firmware to the target device.
 4. Run the system and ensure proper functionality.
 
 
@@ -181,7 +181,20 @@ Contributions to the Elite Drive-guard project are welcome! If you'd like to con
 
 ## Acknowledgements
 
-Special thanks to [contributors](CONTRIBUTORS.md) who have helped make this project possible.
+Special thanks to Information Technololgy Institute (ITI) and to my group instructors: 
+    
+1. Eng. Mahmoud Sayed 
+2. Eng. Sondos Ghieth 
+3. Eng. Mohamed Haggag 
+4. Eng. Yousef Ahmad
+
+and to my team members: 
+
+1. Mohammed Ammar 
+2. Abdullah Ahmed 
+3. Adham Fawzy 
+4. Amr Ghalab
+who have helped make this project possible.
 
 ## Contact
 
