@@ -194,7 +194,8 @@ and to my team members:
 2. Abdullah Ahmed 
 3. Adham Fawzy 
 4. Amr Ghalab
-who have helped make this project possible.
+who have helped make this project possible, and also to Eng. Ahmed Abdelghafar whose FOTA code was customized to meet project's specifications.
+
 
 ## Contact
 
