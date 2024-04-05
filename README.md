@@ -168,14 +168,6 @@ To install the Elite Drive-guard system, follow these steps:
 3. Compile and upload the firmware to the target device.
 4. Run the system and ensure proper functionality.
 
-## Usage
-
-To use the Elite Drive-guard system, follow these instructions:
-
-1. Power on the device and ensure all components are properly connected.
-2. Use the provided interface to interact with the system and access its features.
-3. Refer to the user manual for detailed instructions on configuring and customizing the system settings.
-
 
 ## Contributing
 
@@ -188,8 +180,8 @@ Contributions to the Elite Drive-guard project are welcome! If you'd like to con
 
 ## Acknowledgements
 
-Special thanks to [contributors](CONTRIBUTORS.md) who have helped make this project possible.
+Special thanks to Information Technololgy Institute (ITI) and to [contributors](CONTRIBUTORS.md) who have helped make this project possible.
 
 ## Contact
 
-For questions, feedback, or inquiries, please contact [project maintainer](mailto:example@example.com).
+For questions, feedback, or inquiries, please contact [project maintainer](eslam.mahmoud18130@gmail.com).
