@@ -161,6 +161,31 @@ The Elite Drive-guard system can be fully controlled via Bluetooth using the fol
 <img src="https://github.com/Eslam-Rizk/Elite-DriveGuard/blob/main/pictures/Bluetooth2.jpg" width=700>
 
 
+## Real Time Operating System (RTOS)
+
+- ### Operation:
+The RTOS employed in this project is freeRTOS and provides a robust framework for managing concurrent tasks in real-time embedded systems. By effectively prioritizing tasks and utilizing event flags for synchronization, the system ensures the timely and reliable execution of critical functionalities without compromising performance or safety
+
+**Tasks Overview:**
+1. **Bluetooth Task:** Handles Bluetooth communication functionalities.
+2. **FOTA Task:** Manages Firmware Over-The-Air (FOTA) updates.
+3. **ALC Task:** Controls Adaptive Lane Control functionalities.
+4. **ACC Task:** Manages Adaptive Cruise Control functionalities.
+5. **LKS Task:** Controls Lane Keeping System functionalities.
+6. **AEB Task:** Manages Autonomous Emergency Braking functionalities.
+
+**Task Prioritization:**
+Tasks are prioritized based on their criticality and time sensitivity:
+- **Lowest Priority:** Bluetooth, FOTA, and ALC tasks.
+- **Medium Priority:** ACC Task.
+- **Highest Priority:** LKS and AEB tasks.
+
+**Event Flags:**
+Event flags are utilized within each task to facilitate inter-task communication and synchronization. These flags allow tasks to efficiently coordinate their activities and respond to events promptly. For instance, the ACC task may wait for a specific flag indicating the presence of an obstacle, while the Bluetooth task may wait for a flag indicating data reception.
+
+<img src="https://github.com/Eslam-Rizk/Elite-DriveGuard/blob/main/pictures/RTOS.jpg" width=700>
+
+
 ## Installation
 
 To install the Elite Drive-guard system, follow these steps:
