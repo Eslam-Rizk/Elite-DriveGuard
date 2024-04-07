@@ -178,7 +178,8 @@ The RTOS employed in this project is freeRTOS and provides a robust framework fo
 Tasks are prioritized based on their criticality and time sensitivity:
 - **Lowest Priority:** Bluetooth, FOTA, and ALC tasks.
 - **Medium Priority:** ACC Task.
-- **Highest Priority:** LKS and AEB tasks.
+- **Higher Priority:** LKS Task.
+- **Highest Priority:** AEB task.
 
 **Event Flags:**
 Event flags are utilized within each task to facilitate inter-task communication and synchronization. These flags allow tasks to efficiently coordinate their activities and respond to events promptly. For instance, the ACC task may wait for a specific flag indicating the presence of an obstacle, while the Bluetooth task may wait for a flag indicating data reception.
