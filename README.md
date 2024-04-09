@@ -24,7 +24,8 @@ Technologies such as Advanced Driver Assistance Systems (ADAS) have proven to be
 13. [Usage](#usage)
 14. [Contributing](#contributing)
 15. [Acknowledgements](#acknowledgements)
-16. [Contact](#contact)
+16. [License](license)
+17. [Contact](#contact)
 
 ## Introduction
 The Elite Drive-guard is an Advanced Driver Assistance System (ADAS) prototype designed to enhance driver safety and improve overall driving experience. This documentation provides an overview of its features and functionalities.
@@ -224,6 +225,10 @@ and to my team members:
 
 
 who've helped make this project possible, and also to Eng. Ahmed Abdelghafar whose FOTA code was customized to meet project's specifications.
+
+## License
+
+This project is licensed under the Apache License, Version 2.0 - see the [LICENSE](LICENSE) file for details.
 
 
 ## Contact
