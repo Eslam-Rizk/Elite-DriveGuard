@@ -24,7 +24,7 @@ Technologies such as Advanced Driver Assistance Systems (ADAS) have proven to be
 13. [Usage](#usage)
 14. [Contributing](#contributing)
 15. [Acknowledgements](#acknowledgements)
-16. [License](license)
+16. [License](#license)
 17. [Contact](#contact)
 
 ## Introduction
